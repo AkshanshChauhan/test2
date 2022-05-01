@@ -1,0 +1,641 @@
+.main {
+    position: relative;
+    width: 1440px;
+    height: 2079px;
+    background: #0A0B1A;
+}
+
+.mainTopBox {
+    position: absolute;
+    width: 1440px;
+    height: 862px;
+    background: linear-gradient(180deg, rgba(5, 11, 20, 0.28) 0%, rgba(1, 13, 32, 0.69) 67.53%, #0A0B1A 85.33%);
+}
+
+.mainImg {
+    position: absolute;
+    width: 1440px;
+    height: 758px;
+    background-image: url("img/image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    position: absolute;
+    width: 1440px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    width: 86px;
+    height: 44px;
+    left: 10.42%;
+    right: 83.61%;
+    background-image: url("img/logo.svg");
+}
+
+.links {
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    gap: 5px;
+    color: white;
+    position: absolute;
+    left: 70%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.linkTwo:nth-child(2) {
+    display: flex;
+    gap: 5px;
+    color: white;
+    position: absolute;
+    left: 77%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.linkTwo:nth-child(3) {
+    display: flex;
+    gap: 5px;
+    color: white;
+    position: absolute;
+    left: 82%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.linkTwo:nth-child(4) {
+    display: flex;
+    gap: 5px;
+    color: white;
+    position: absolute;
+    left: 87.5%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.cari {
+    position: absolute;
+    color: white;
+}
+
+.cari h1 {
+    position: absolute;
+    width: 383px;
+    height: 96px;
+    left: 151px;
+    top: 246px;
+
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.cari p {
+    position: absolute;
+    width: 611px;
+    height: 64px;
+    left: 151px;
+    top: 366px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.circleArea {
+    position: relative;
+    top: 0px;
+    width: 1440px;
+    height: 862px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 90px;
+}
+
+.circle {
+    position: relative;
+    border: 1px solid #ffffff45;
+    box-sizing: border-box;
+    width: 208px;
+    height: 208px;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.circle:hover {
+    border: 1px solid #DD4CAC;
+}
+
+.circle img {
+    width: 30px;
+    margin: auto;
+    position: relative;
+    top:30px;
+}
+
+.circle p:nth-child(2) {
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top:-0px;
+}
+
+.circle p:nth-child(3) {
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    top: -30px;
+}
+
+.contentBox {
+    position: absolute;
+    width: 1151px;
+    height: 942px;
+    left: 151px;
+    top: 984px;
+}
+
+.contentBox h1 {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.upComingShows {
+    position: relative;
+    width: 1151px;
+    height: 471px;
+}
+
+.status {
+    display: flex;
+    gap: 30px;
+}
+
+.localBox {
+    position: relative;
+    height: 387px;
+    width: 268px;
+    background: linear-gradient(163.41deg, #301A68 0.11%, #234C97 170.69%);
+    border-radius: 8px;
+    margin: 20px 0px;
+}
+
+.statBox {
+    position: absolute;
+    height: 387px;
+    width: 268px;
+    background: #111229;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    top: 8px;
+    right: 8px;
+}
+
+.localBox:nth-child(1) .faceBox {
+    border-radius: 8px 8px 0px 0px;
+    height: 230px;
+    width: 268px;
+    background-image: url('img/subImgOne.svg');
+}
+
+.localBox:nth-child(2) .faceBox {
+    border-radius: 8px 8px 0px 0px;
+    height: 230px;
+    width: 268px;
+    background-image: url('img/subImgTwo.svg');
+}
+
+.localBox:nth-child(3) .faceBox {
+    border-radius: 8px 8px 0px 0px;
+    height: 230px;
+    width: 268px;
+    background-image: url('img/subImgThree.svg');
+}
+
+.localBox:nth-child(4) .faceBox {
+    border-radius: 8px 8px 0px 0px;
+    height: 230px;
+    width: 268px;
+    background-image: url('img/subImgFour.svg');
+}
+
+.catoBox {
+    padding: 2px 8px;
+    width: max-content;
+    height: 20px;
+    background: #E5C558;
+    border-radius: 1px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+}
+
+.nameBox {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin: 16px;
+}
+
+.moreInfo {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    color: #0259EB;
+    margin: 30px 16px;
+    height: 30px;
+}
+
+.moreInfo img {
+    cursor: pointer;
+}
+
+.moreInfo img:hover {
+    fill: orange;
+}
+
+.review {
+    position: relative;
+    width: 1151px;
+    height: 380px;
+    padding: 40px 0px;
+}
+
+.review h3 {
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.reviewBox {
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.reviewShadow {
+    position: relative;
+    background: linear-gradient(143.63deg, #276C73 5.43%, #5293E8 110.6%);
+    border-radius: 16px;
+    height: 248px;
+    width: 360px;
+    border-radius: 16px;
+}
+
+.reviewCont {
+    position: absolute;
+    background-color: black;
+    border-radius: 16px;
+    height: 248px;
+    width: 360px;
+    border-radius: 16px;
+    top: 10px;
+    left: -8px;
+    outline: 1px solid #E5AF56;
+}
+
+.head {
+    height: 56px;
+    margin: 20px;
+    width: max-content;
+    display: flex;
+    gap: 20px;
+}
+
+.info h3{
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    height: max-content;
+    margin: auto;
+}
+
+.subFlag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: static;
+    opacity: 0.7;
+    margin: 0px 0px;
+    color: White;
+    gap: 10px;
+    font-size: 11px;
+}
+
+.contentMat {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight:lighter;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.9;
+    margin: 20px;
+    height: 96px;
+}
+
+.line {
+    width: 48px;
+    height: 3px;
+    margin-top: 10px;
+    background: #0259EB;
+    border-radius: 16px;
+}
+
+@media (max-width: 600px) {
+    .mainTopBox {
+        position: absolute;
+        width: 100vw;
+        height: 862px;
+        background: linear-gradient(180deg, rgba(5, 11, 20, 0.28) 0%, rgba(1, 13, 32, 0.69) 67.53%, #0A0B1A 85.33%);
+    }
+    .mainImg {
+        position: absolute;
+        width: 100vw;
+        height: 758px;
+        background-image: url("img/image.png");
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .main {
+        position: relative;
+        width: 100vw;
+        height: 2079px;
+        overflow-x: hidden;
+        background: #0A0B1A;
+    }
+
+    .nav {
+        position: sticky;
+        top: 20px;
+        width: 1440px;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        position: absolute;
+        width: 86px;
+        height: 44px;
+        background-image: url("img/logo.svg");
+    }
+    
+
+    .nav {
+        position: absolute;
+        width: 100%;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links {
+        display: flex;
+    }
+
+    .link {
+        left: 66%;
+    }
+
+    .linkTwo:nth-child(2) {
+        display: none;
+        gap: 5px;
+        color: white;
+        position: absolute;
+        left: 0%;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
+    .linkTwo:nth-child(3) {
+        display: none;
+        gap: 5px;
+        color: white;
+        position: absolute;
+        left: 82%;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
+    .linkTwo:nth-child(4) {
+        display: flex;
+        gap: 5px;
+        color: white;
+        position: absolute;
+        left: 87.5%;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
+    .circleArea {
+        position: relative;
+        top: 0px;
+        width: 80vw;
+        margin: auto;
+        height: 862px;
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: center;
+        gap: 90px;
+        overflow-y: scroll; 
+        scroll-snap-type: x mandatory;
+
+    }
+
+    .circle {
+        position: relative;
+        border: 1px solid #ffffff45;
+        box-sizing: border-box;
+        width: 208px;
+        height: 208px;
+        border-radius: 50%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        cursor: pointer;
+        right: -500px;
+        scroll-snap-align: center;
+    }
+
+    .circle:nth-last-child(1) {
+        position: relative;
+    }
+
+    .cari {
+        position: absolute;
+        color: white;
+    }
+    
+    .cari h1 {
+        position: absolute;
+        width: 300px;
+        height: 96px;
+        top: 246px;
+        left: auto;
+        font-family: 'Libre Baskerville';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        justify-content: center;
+        color: #FFFFFF;
+        
+    }
+    
+    .cari p {
+        position: absolute;
+        width: 611px;
+        height: 64px;
+        left: 30px;
+        top: 366px;
+    
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 32px;
+        color: #FFFFFF;
+        opacity: 0.6;
+    }
+
+    .contentBox {
+        position: absolute;
+        width: 100vw;
+        height: 942px;
+        left: 0px;
+        top: 984px;
+    }
+    
+
+    .upComingShows {
+        position: relative;
+        width: 100vw;
+        height: 471px;
+        left: auto;     
+    }
+
+    .status {
+        position: relative;
+        width: 100vw;
+        display: grid;
+        grid-auto-flow: column;
+        gap: 100px;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+    }
+
+    .localBox {
+        scroll-snap-align: center;
+        left: 40px;
+    }
+
+    .localBox:nth-last-child(1) {
+        margin-right: 100px;
+    }
+    
+    .reviewBox {
+        width: 100vw;
+        height: 300px;
+        display: grid;
+        grid-auto-flow: column;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        gap: 10px;
+    }
+
+    .reviewShadow {
+        width: calc(100vw - 20px);
+        scroll-snap-align: center;
+        margin: auto;
+        left: 0px;
+    }
+
+    .reviewCont {
+        width: calc(100vw - 20px);
+        margin: auto;
+        left: 0px;
+    }
+
+    .reviewShadow:nth-last-child(3) {
+        margin-left: 100px;
+    }
+
+    .reviewShadow:nth-last-child(1) {
+        margin-right: 100px;
+    }
+
+    h1 {
+        position: relative;
+        left: 10px;
+    }
+}
